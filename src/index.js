@@ -1,16 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './functionBased/index.css';
-// import { BrowserRouter } from 'react-router-dom';
+import { BrowserRouter } from 'react-router-dom';
 import TodoContainer from './functionBased/components/TodoContainer';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    {/* <BrowserRouter> */}
-    {/* </BrowserRouter> */}
-    <TodoContainer />
+    <BrowserRouter>
+      <TodoContainer />
+    </BrowserRouter>
   </React.StrictMode>,
 );
 

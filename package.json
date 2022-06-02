@@ -23,6 +23,17 @@
     "eject": "react-scripts eject",
     "deploy": "gh-pages -d build"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ndayishimiyeeric/react-todo-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ndayishimiyeeric/react-todo-app/issues"
+  },
+  "homepage": "https://ndayishimiyeeric.github.io/react-todo-app",
   "eslintConfig": {
     "extends": [
       "react-app",
